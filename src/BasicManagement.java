@@ -21,11 +21,11 @@ public class BasicManagement {
             int num = Integer.parseInt(scanner.nextLine());
             switch (num){
                 case 1:
-                    EmployeeService.addEmployment(scanner);
+                    DepartmentService.addDeparment(scanner);
                     break;
 
                 case 2:
-                    DepartmentService.addDeparment(scanner);
+                    EmployeeService.addEmployment(scanner);
                     break;
 
                 case 3:
